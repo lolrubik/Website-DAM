@@ -1,0 +1,54 @@
+:root {
+    background-color: rgb(89, 89, 202);
+}
+
+.body {
+    position: middle;
+    background-color: white;
+    width: 95%;
+    height: 90%;
+}
+
+.header_body {
+    background-color: rgb(174, 193, 235);
+    height: 200px;
+}
+
+.imagen_escritura {
+    float: right;
+}
+
+.nav_arriba {
+    background-image: url("sources/bluePrintPaper.png");
+    height: 40px;
+    text-align: center;
+}
+
+.ul_arriba {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.li_arriba {
+    display: inline;
+    width: 50%;
+    margin-right: 50px;
+}
+
+.li_arriba a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.sponsor {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.sponsor img {
+    width: calc(10%);
+}
