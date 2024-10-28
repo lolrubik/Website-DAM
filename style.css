@@ -5,13 +5,19 @@
 .body {
     position: middle;
     background-color: white;
-    width: 95%;
-    height: 90%;
+    width: 90%;
+    height: 80%;
+    margin: 5%;
 }
 
 .header_body {
     background-color: rgb(174, 193, 235);
     height: 200px;
+}
+
+.element_header {
+    margin: 30px;
+
 }
 
 .imagen_escritura {
@@ -43,12 +49,37 @@
 }
 
 .sponsor {
-    display: flex;
-    float: left;
-    flex-wrap: wrap;
-    justify-content: space-between;    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 250px;
+    margin: 20px;
 }
 
 .sponsor img {
-    width: calc(10%);
+    width: 100%;
+    height: auto;
+}
+
+.aside {
+    border-right: 3px solid black;
+    width: 35%;
+    margin: 20px;
+}
+
+.aside h3 {
+    margin: 20px;
+}
+
+.section_main {
+    width: 60%;
+    float: right;
+}
+
+.section_main p {
+    font-size: 10;
+}
+
+.footer {
+    background-color: rgb(174, 193, 235);
 }
